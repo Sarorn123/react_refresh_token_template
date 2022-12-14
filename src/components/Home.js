@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import useAxiosPrivate from '../api/axiosPrivate';
 import { useAuth } from '../redux/slice/authSlice';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const { user } = useAuth();

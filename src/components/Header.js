@@ -30,6 +30,12 @@ const Header = () => {
                 <li className='ml-5'>
                     <Link to={"/about"}>About</Link>
                 </li>
+                <li className='ml-5'>
+                    <Link to={"/creator"}>Creator</Link>
+                </li>
+                <li className='ml-5'>
+                    <Link to={"admin/dashboard"}>Dashboard</Link>
+                </li>
                 {
                     access_token && <button
                         className='bg-red-500 px-4 py-2 rounded-lg active:bg-red-400 ml-5'
